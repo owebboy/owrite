@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>owrite</title>
+
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/skeleton.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<h1>owrite <small>just start typing</small></h1>
+		</header>
+		<textarea autofocus id="text" wrap="off"></textarea>
+		<hr>
+		<input id="save" placeholder="filename"></input>
+		<button onclick="saveTextAsFile()" class="btn">save</button>
+		<button class="empty btn">empty</button>
+		<button class="clear btn">clear</button>
+
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/autosize.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('textarea').autosize();
+		});
+	</script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

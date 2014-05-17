@@ -1,0 +1,57 @@
+html {
+	background: #fff;
+	color: #111;
+}
+
+small {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: 300;
+	color: #ccc;
+}
+
+#text {
+	outline: none;
+	resize: none;
+	width: 100%;
+	height: 200px;
+	display: block;
+	border: 0 solid;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+hr {
+	background: #ccc;
+	border: 0;
+	border-bottom: 3px solid #ccc;
+}
+
+input, button {
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #ccc;
+	padding: 8px;
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	 color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	 color: #ccc;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	 color: #ccc;
+}
+
+:-ms-input-placeholder {
+	 color: #ccc;
+}
+
+.btn {
+	color: #ccc;
+}
